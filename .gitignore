@@ -1,0 +1,20 @@
+#built application files
+
+# generated files
+bin/
+gen/
+
+# Eclipse project files
+.classpath
+.project
+
+
+# Android Studio
+*.iml
+.idea
+#.idea/workspace.xml - remove # and delete .idea if it better suit your needs.
+.gradle
+build/
+
+#NDK
+obj/
