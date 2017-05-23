@@ -3,12 +3,12 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
-        <bean id="helloworld" class="com.leeson1.Helloworld" ></bean>
+        <bean id="helloworld" class="com.lesson1.Helloworld" ></bean>
         
-         <bean id="CvsOutputGenerator" class="com.leeson1.CvsOutputGenerator" ></bean>
-         <bean id="JsonOutputGenerator" class="com.leeson1.JsonOutputGenerator" ></bean>
+         <bean id="CvsOutputGenerator" class="com.lesson1.CvsOutputGenerator" ></bean>
+         <bean id="JsonOutputGenerator" class="com.lesson1.JsonOutputGenerator" ></bean>
          
-         <bean id="OutputHelper" class="com.leeson1.OutputHelper" >
-             <property name="outputGenerator" ref=""></property>
+         <bean id="OutputHelper" class="com.lesson1.OutputHelper" >
+             <property name="outputGenerator" ref="JsonOutputGenerator"></property>
          </bean>
 </beans> 
